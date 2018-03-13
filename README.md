@@ -19,7 +19,7 @@ dfs.namenode.inode.attributes.provider.class配置为
 com.databps.bigdaf.chiwen.plugin.ChiWenHdfsAuthorizer
 
 
-4)修改hadoop.env.sh
+4)修改hadoop-env.sh
 增加如下内容：
 export ADMIN_URL="https://xxx.xxx.xxx.xxx:8085”(xxx.xxx.xxx.xxx 是chiwen管理平台部署地址)
 
