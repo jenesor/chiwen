@@ -27,7 +27,9 @@ export ADMIN_URL="https://xxx.xxx.xxx.xxx:8085”(xxx.xxx.xxx.xxx 是chiwen管�
 2.hbase配置流程
 
 1)下载源代码用maven编译生成hbase-plugin-0.1.0.jar plugins-common-0.1.0.jar
+
 2)把hbase-plugin-0.1.0.jar plugins-common-0.1.0.jar 放在/hbase-1.2.1/lib目录里面
+
 3)配置hbase-site.xml
 hbase.security.authorization设置为true
 
